@@ -1,0 +1,140 @@
+.chat-buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .chat-buttons button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .chat-buttons button:hover {
+    background-color: #357ab9;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chat-header {
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    padding: 10px;
+    background-color: #f5f5f5;
+    overflow-y: auto;
+  }
+  
+  .message-left, .message-right {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .message-left {
+    flex-direction: row;
+  }
+  
+  .message-right {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  
+  .message-avatar {
+    margin-right: 10px;
+  }
+  
+  .message-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  
+  .message-content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+  }
+  
+  .message-left .message-content {
+    background-color: #ffffff;
+  }
+  
+  .message-right .message-content {
+    background-color: #dcf8c6;
+  }
+  
+  .message-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .message-text {
+    margin-bottom: 5px;
+  }
+  
+  .message-time {
+    font-size: 0.8em;
+    color: #999;
+  }
+  
+  .chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+  }
+  
+  .chat-input button {
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .chat-input button:hover {
+    background-color: #357ab9;
+  }
+  
